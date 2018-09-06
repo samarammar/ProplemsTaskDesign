@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <attr name="sc_corner_radius" format="dimension" />
+    <attr name="sc_border_width" format="dimension" />
+    <attr name="sc_tint_color" format="color" />
+    <attr name="sc_checked_text_color" format="color" />
+
+
+    <style name="RadioButtonStyle">
+        <item name="android:textColor">@color/black</item>
+        <!--<item name="android:textSize">16dp</item>-->
+        <item name="android:textStyle">bold</item>
+        <item name="android:minHeight">40dp</item>
+        <item name="android:minWidth">80dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/darkgray</item>
+
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
